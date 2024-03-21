@@ -8,7 +8,7 @@ homepage: "https://github.com/inhabitedtype/websocketaf"
 bug-reports: "https://github.com/inhabitedtype/websocketaf/issues"
 dev-repo: "git+https://github.com/inhabitedtype/websocketaf.git"
 build: [
-  ["dune" "subst" "-p" name] {pinned}
+  ["dune" "subst"] {pinned}
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [

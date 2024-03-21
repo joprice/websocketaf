@@ -7,7 +7,7 @@ homepage: "https://github.com/inhabitedtype/websocketaf"
 bug-reports: "https://github.com/inhabitedtype/websocketaf/issues"
 dev-repo: "git+https://github.com/inhabitedtype/websocketaf.git"
 build: [
-  ["jbuilder" "subst" "-p" name] {pinned}
+  ["jbuilder" "subst"] {pinned}
   ["jbuilder" "build" "-p" name "-j" jobs]
 ]
 depends: [
